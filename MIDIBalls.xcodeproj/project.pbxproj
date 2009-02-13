@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB3AB14079D50E00046E3F3 /* MIDIBalls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A425E0FFDC58A77F000001 /* MIDIBalls.cpp */; settings = {ATTRIBUTES = (); }; };
+		3EB3AB16079D50E00046E3F3 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A425E4FFDC58C57F000001 /* CoreMIDI.framework */; };
+		3EB3AB17079D50E00046E3F3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F524FB05011A260A01CA20C6 /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A425E0FFDC58A77F000001 /* MIDIBalls.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIBalls.cpp; sourceTree = "<group>"; };
+		01A425E4FFDC58C57F000001 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		3EB3AB19079D50E00046E3F3 /* midiballs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = midiballs; sourceTree = BUILT_PRODUCTS_DIR; };
+		F524FB05011A260A01CA20C6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB3AB15079D50E00046E3F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB3AB16079D50E00046E3F3 /* CoreMIDI.framework in Frameworks */,
+				3EB3AB17079D50E00046E3F3 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A425D7FFDC57E57F000001 = {
+			isa = PBXGroup;
+			children = (
+				01A425E0FFDC58A77F000001 /* MIDIBalls.cpp */,
+				01A425D8FFDC58047F000001 /* Products */,
+				01A425E4FFDC58C57F000001 /* CoreMIDI.framework */,
+				F524FB05011A260A01CA20C6 /* CoreServices.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		01A425D8FFDC58047F000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB3AB19079D50E00046E3F3 /* midiballs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EB3AB12079D50E00046E3F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EB3AB11079D50E00046E3F3 /* midiballs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E62BF3908984621002F3F10 /* Build configuration list for PBXNativeTarget "midiballs" */;
+			buildPhases = (
+				3EB3AB12079D50E00046E3F3 /* Headers */,
+				3EB3AB13079D50E00046E3F3 /* Sources */,
+				3EB3AB15079D50E00046E3F3 /* Frameworks */,
+				3EB3AB18079D50E00046E3F3 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = midiballs;
+			productInstallPath = /usr/local/bin;
+			productName = echo;
+			productReference = 3EB3AB19079D50E00046E3F3 /* midiballs */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A425D6FFDC57E57F000001 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3E62BF3C08984621002F3F10 /* Build configuration list for PBXProject "MIDIBalls" */;
+			hasScannedForEncodings = 0;
+			mainGroup = 01A425D7FFDC57E57F000001;
+			productRefGroup = 01A425D8FFDC58047F000001 /* Products */;
+			projectDirPath = "";
+			targets = (
+				3EB3AB11079D50E00046E3F3 /* midiballs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXRezBuildPhase section */
+		3EB3AB18079D50E00046E3F3 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB3AB13079D50E00046E3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB3AB14079D50E00046E3F3 /* MIDIBalls.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E62BF3A08984621002F3F10 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = midiballs;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		3E62BF3B08984621002F3F10 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = midiballs;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		3E62BF3D08984621002F3F10 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		3E62BF3E08984621002F3F10 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E62BF3908984621002F3F10 /* Build configuration list for PBXNativeTarget "midiballs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E62BF3A08984621002F3F10 /* Development */,
+				3E62BF3B08984621002F3F10 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		3E62BF3C08984621002F3F10 /* Build configuration list for PBXProject "MIDIBalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E62BF3D08984621002F3F10 /* Development */,
+				3E62BF3E08984621002F3F10 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A425D6FFDC57E57F000001 /* Project object */;
+}

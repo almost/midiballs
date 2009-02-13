@@ -1,0 +1,168 @@
+// !$*UTF8*$!
+{
+	01A425D6FFDC57E57F000001 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = FBD6B75D0ED85A8200FDED03 /* midiballs */;
+		activeTarget = 3EB3AB11079D50E00046E3F3 /* midiballs */;
+		breakpoints = (
+			FBD6B80B0ED88C4100FDED03 /* MIDIBalls.cpp:73 */,
+		);
+		breakpointsGroup = FBD6B79E0ED8705600FDED03 /* XCBreakpointsBucket */;
+		codeSenseManager = FBD6B7650ED85AA000FDED03 /* Code sense */;
+		executables = (
+			FBD6B75D0ED85A8200FDED03 /* midiballs */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					251,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					363,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					183,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 249079920;
+			PBXWorkspaceStateSaveDate = 249079920;
+		};
+		sourceControlManager = FBD6B7640ED85AA000FDED03 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	01A425E0FFDC58A77F000001 /* MIDIBalls.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {776, 1246}}";
+			sepNavSelRange = "{1821, 0}";
+			sepNavVisRect = "{{0, 490}, {711, 698}}";
+			sepNavWindowFrame = "{{523, 50}, {750, 827}}";
+		};
+	};
+	3EB3AB11079D50E00046E3F3 /* midiballs */ = {
+		activeExec = 0;
+		executables = (
+			FBD6B75D0ED85A8200FDED03 /* midiballs */,
+		);
+	};
+	FBD6B75D0ED85A8200FDED03 /* midiballs */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = midiballs;
+		sourceDirectories = (
+		);
+	};
+	FBD6B7640ED85AA000FDED03 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	FBD6B7650ED85AA000FDED03 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FBD6B79E0ED8705600FDED03 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+			FBD6B80B0ED88C4100FDED03 /* MIDIBalls.cpp:73 */,
+		);
+	};
+	FBD6B80B0ED88C4100FDED03 /* MIDIBalls.cpp:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = 01A425E0FFDC58A77F000001 /* MIDIBalls.cpp */;
+		functionName = "MyReadProc()";
+		hitCount = 0;
+		lineNumber = 73;
+		modificationTime = 249072705.0242969;
+		state = 1;
+	};
+}
