@@ -1,0 +1,11 @@
+MIDIBalls
+=========
+
+OSX MIDI->OSC bridge for Felix's Machines
+
+tom@almostobsolete.net
+Thomas Parslow
+
+Appears as a MIDI device in OSX, transforms MIDI notes into OSC messages.
+
+Quick, dirty and feature-lite, but it does what we need.
